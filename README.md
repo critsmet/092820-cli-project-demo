@@ -5,5 +5,5 @@
   - Demonstrate how to make commits to GitHub Repo
 
 ## The CLI Class
-  - Writing methods and compiling them together in single run method
-  - Using a while loop
+  - Writing methods and compiling them together in single #run method
+  - Using a while loop to give users the sensation of a menu 
