@@ -40,7 +40,7 @@ class Review
 
   def check_for_review
     if @review === nil
-      hash = Scraper.new.second_scrape(self, @review_url)
+      Scraper.new.second_scrape(self)
     end
   end
 
