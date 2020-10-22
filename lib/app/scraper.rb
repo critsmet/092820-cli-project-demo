@@ -21,7 +21,7 @@ class Scraper
   end
 
   def second_scrape(review)
-    review_html = open(@base_url + review.url)
+    review_html = open(@base_url + review.review_url)
     review_html_parsed_to_elements = Nokogiri::HTML(review_html)
     review.review = review_html_parsed_to_elements.css(".review-detail__abstract").text
     review.score = review_html_parsed_to_elements.css(".score").text
